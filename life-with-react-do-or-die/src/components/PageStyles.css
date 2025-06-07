@@ -1,0 +1,40 @@
+.fancy-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 2rem;
+  background: linear-gradient(135deg, #243d5b 30%, #b63300 100%);
+  min-height: 90vh;
+  color: #f5f7f9;
+  font-family: 'Segoe UI', sans-serif;
+  animation: fadeIn 1s ease-in;
+  text-align: center;
+}
+
+
+.fancy-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+.fancy-list li {
+  margin-bottom: 0.75rem;
+}
+
+.contact-card {
+  background: #b63300;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  max-width: 400px;
+  margin-top: 1rem;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
