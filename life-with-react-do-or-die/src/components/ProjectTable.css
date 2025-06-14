@@ -1,0 +1,55 @@
+/* src/components/ProjectTable.css */
+
+.project-table-container {
+  padding: 2rem;
+  min-height: 90vh;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #ffffff, #f5faff);
+}
+
+.table-heading {
+  text-align: center;
+  color: #1e3a8a;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  animation: fadeInDown 0.8s ease-in-out;
+}
+
+.fancy-grid {
+  height: 400px;
+  width: 90%;
+  margin: auto;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Custom status cell styles */
+.status-completed {
+  background-color: #d1fae5;
+  color: #065f46;
+  font-weight: bold;
+}
+
+.status-progress {
+  background-color: #fef3c7;
+  color: #92400e;
+  font-weight: bold;
+}
+
+.status-pending {
+  background-color: #fee2e2;
+  color: #991b1b;
+  font-weight: bold;
+}
+
+/* Animation */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

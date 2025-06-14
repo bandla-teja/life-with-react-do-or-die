@@ -1,0 +1,62 @@
+/* src/components/Projects.css */
+
+.projects-container {
+  padding: 2rem;
+  min-height: 90vh;
+  background: linear-gradient(to right, #ffffff, #f2f6ff);
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+.fancy-heading {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #1e3a8a;
+  animation: fadeInDown 1s ease-in-out;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  max-width: 90%;
+  margin: auto;
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.fancy-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+  color: #333;
+}
+
+.fancy-table th,
+.fancy-table td {
+  padding: 1rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.fancy-table th {
+  background-color: #1e3a8a;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.fancy-table tr:hover {
+  background-color: #f0f8ff;
+  transition: 0.3s ease;
+}
+
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}

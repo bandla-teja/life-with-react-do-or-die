@@ -26,7 +26,6 @@ const Home = () => {
       <section className="hero">
         <h1>Welcome to VC Catalyst 2025</h1>
         <p>Team - Fight Club</p>
-        <button className="hero-btn">Get Started</button>
       </section>
 
       <section className="features">
